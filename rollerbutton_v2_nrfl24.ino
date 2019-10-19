@@ -1,6 +1,6 @@
 /*
  * 
- * Mysensors Temperature Sensor with battery monitoring
+ * Mysensors Wall Roller and extre switch
  * 
  */
 
@@ -8,7 +8,7 @@
 #define MY_DEBUG 
 
 // Enable and select radio type attached
-#define MY_RADIO_NRF24
+#define MY_RADIO_RF24
 #define MY_RF24_PA_LEVEL RF24_PA_HIGH
 //#define MY_RADIO_RFM69
 //#define MY_IS_RFM69HWw
@@ -36,7 +36,7 @@
 
 //Sketch information
 #define SKETCH_INFO         "Roller Switch Button"
-#define SKETCH_VERSION      "1.3"
+#define SKETCH_VERSION      "1.4"
 #define ROLLERL_ID_INFO     "Local Roller"
 #define ROLLERL_ID 0
 #define LPUP_ID_INFO        "Long Press Up"
